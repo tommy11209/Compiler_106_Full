@@ -1,0 +1,40 @@
+			Program assignment 3
+
+1.
+     the change of lex.l parser.y
+
+在lex中某些return的地方，新增"yylval.str=strdup(yytext)"，且考慮 //&D+ //&D- 的情況.
+
+2.
+     the change of parser.y  and the abilities of parser.y
+
+新增多個函數，使其建造出symbol table，
+
+Each entry of a symbol table is an identifier associated with its attributes, such as its name,
+ 
+name type (program name, function name,parameter name, variable name, or constant name),
+ 
+scope (local or global), 
+
+type (variable or constants data type, function’s parameter types or function’s return type),
+
+constant’s value, etc
+
+Each entry of a symbol table consists of the name, kind, scope level, type, value, and additional attributes
+of a symbol. 
+
+並且能判斷 "重複宣告" 的錯誤，==>> "names must be unique within a given scope".
+3.
+     how to run?
+
+unzip <YourID>.zip
+cd <YourID>
+make
+./parser <input file>
+
+4.
+     the platform to run
+
+工作站 linux6.cs.nctu.edu.tw
+
+

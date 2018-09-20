@@ -1,0 +1,21 @@
+	Project Assignment 5
+	Code Generation
+
+1.Ability
+The compiler is for the pascal-like P language.
+
+varible: integer, real. Supports global, local and constant varible
+loop: for, while
+I/O: print, read
+function: supports function define and invocation.
+expression: arithmetic, boolean expressions
+branch: if...else
+
+2.the platform to run
+nctu cs <linux6.cs.nctu.edu.tw >
+
+3.how to run
+unzip ${YOURID}.zip
+cd ${YOURID}
+make
+./parser ${INPUTFILENAME}

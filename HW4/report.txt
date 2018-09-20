@@ -1,0 +1,27 @@
+Project assignment 4
+
+0413249 ¼B©v©¨
+
+ 1.the abilities of  parser
+
+     It will do some simple checking of semantic correctness,
+
+     such that Program Units, Variable/Constant Declarations and References,
+
+     Variable References, Array References and Expressions,Type Coercion,Statements......
+
+ 2.the change of parser
+
+      I add some semantic check function to check semantic,and then print the error message,
+
+      and keep the remain code working(symbol table).
+
+ 3. the platform to run  parser
+
+       use nctu cs work station: linux6.cs.nctu.edu.tw
+ 
+ 4.how to run?
+        unzip ${YOURID}.zip
+        cd ${YOURID}
+        make
+        ./parser ${INPUTFILENAME}

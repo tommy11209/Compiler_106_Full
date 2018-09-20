@@ -1,0 +1,27 @@
+                         Project  assignment 2
+                         Syntactic Definitions
+                                           0413249 劉宗岳
+1.the change of Project1
+
+    使用老師提供的project1 scanner.l ，將其稍微改寫，在每個對應的token式子中，
+    回傳該對應的token所代表的符號，並應用在parser中。
+
+2.
+  the ability of parser:
+
+    This parser using an LALR(1) grammar and using yacc, and then it can check whether the program following the 
+    request of the pdf. 
+3.
+  the platform to run:
+ 
+    I use the linux6.cs.nctu.edu.tw to run my program.
+4.
+  how to run?
+    下載Examples.zip並上傳到學校的linux工作站
+    解壓縮檔案 (工作站上執行unzip Examples.zip)
+    將準備上傳的作業zip放入Example.zip
+    執行test.sh(sh test.sh)
+    or
+    flex lex.l
+    yacc -d -v parser.y
+          
